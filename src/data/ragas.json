@@ -1,0 +1,383 @@
+{
+  "_comment": "Swara indices: 0 S, 1 r, 2 R, 3 g, 4 G, 5 m, 6 M, 7 P, 8 d, 9 D, 10 n, 11 N. MUSICAL DATA PENDING MUSICIAN REVIEW — see loadRagas.ts header.",
+  "ragas": [
+    {
+      "id": "bhupali",
+      "name": "Bhupali",
+      "thaat": "Kalyan",
+      "swaras": [0, 2, 4, 7, 9],
+      "aroha": [0, 2, 4, 7, 9, 0],
+      "avaroha": [0, 9, 7, 4, 2, 0],
+      "vadi": 4,
+      "samvadi": 9,
+      "nyas": [4, 7, 0],
+      "pakad": ["G R S .D S R G", "P G D P G R S"],
+      "varjyaRules": [
+        {
+          "swara": 5,
+          "category": "dissonant",
+          "note": "Shuddha Ma is absent from Bhupali; a sustained Ma breaks the raga outright."
+        },
+        {
+          "swara": 6,
+          "category": "dissonant",
+          "note": "Tivra Ma does not belong to Bhupali."
+        },
+        {
+          "swara": 11,
+          "category": "embellishment_ok",
+          "allowedContexts": ["D N S'", "D N S"],
+          "note": "Shuddha Ni is varjya, but a sub-120 ms kan touch before upper Sa is idiomatic."
+        },
+        {
+          "swara": 10,
+          "category": "dissonant",
+          "note": "Komal Ni does not belong to Bhupali."
+        },
+        {
+          "swara": 1,
+          "category": "dissonant",
+          "note": "Komal Re does not belong to Bhupali."
+        },
+        {
+          "swara": 3,
+          "category": "dissonant",
+          "note": "Komal Ga does not belong to Bhupali."
+        },
+        {
+          "swara": 8,
+          "category": "dissonant",
+          "note": "Komal Dha does not belong to Bhupali."
+        }
+      ],
+      "samay": "evening",
+      "rasa": "shanta"
+    },
+    {
+      "id": "yaman",
+      "name": "Yaman",
+      "thaat": "Kalyan",
+      "swaras": [0, 2, 4, 6, 7, 9, 11],
+      "aroha": [0, 2, 4, 6, 7, 9, 11, 0],
+      "avaroha": [0, 11, 9, 7, 6, 4, 2, 0],
+      "vadi": 4,
+      "samvadi": 11,
+      "nyas": [4, 11, 7],
+      "pakad": [".N R G R", "P R .N R S"],
+      "andolanOn": [],
+      "varjyaRules": [
+        {
+          "swara": 5,
+          "category": "conventional",
+          "allowedContexts": ["G m G R S", "G m G R", "G m G"],
+          "note": "Shuddha Ma belongs to Yaman Kalyan and is accepted in the descending phrase G m G R S; anywhere else it is a mistake in Yaman."
+        },
+        {
+          "swara": 1,
+          "category": "dissonant",
+          "note": "Komal Re does not belong to Yaman."
+        },
+        {
+          "swara": 3,
+          "category": "dissonant",
+          "note": "Komal Ga does not belong to Yaman."
+        },
+        {
+          "swara": 8,
+          "category": "dissonant",
+          "note": "Komal Dha does not belong to Yaman."
+        },
+        {
+          "swara": 10,
+          "category": "dissonant",
+          "note": "Komal Ni does not belong to Yaman."
+        }
+      ],
+      "samay": "evening",
+      "rasa": "shringar"
+    },
+    {
+      "id": "bhairav",
+      "name": "Bhairav",
+      "thaat": "Bhairav",
+      "swaras": [0, 1, 4, 5, 7, 8, 11],
+      "aroha": [0, 1, 4, 5, 7, 8, 11, 0],
+      "avaroha": [0, 11, 8, 7, 5, 4, 1, 0],
+      "vadi": 8,
+      "samvadi": 1,
+      "nyas": [8, 1, 0],
+      "pakad": ["G m d d P", "G m r r S"],
+      "andolanOn": [1, 8],
+      "varjyaRules": [
+        {
+          "swara": 2,
+          "category": "dissonant",
+          "note": "Shuddha Re replaces the andolit komal Re and destroys Bhairav's identity."
+        },
+        {
+          "swara": 9,
+          "category": "dissonant",
+          "note": "Shuddha Dha does not belong to Bhairav; komal Dha carries the andolan."
+        },
+        {
+          "swara": 3,
+          "category": "dissonant",
+          "note": "Komal Ga does not belong to Bhairav."
+        },
+        {
+          "swara": 6,
+          "category": "dissonant",
+          "note": "Tivra Ma does not belong to Bhairav."
+        },
+        {
+          "swara": 10,
+          "category": "dissonant",
+          "note": "Komal Ni does not belong to Bhairav."
+        }
+      ],
+      "samay": "dawn",
+      "rasa": "bhakti"
+    },
+    {
+      "id": "malkauns",
+      "name": "Malkauns",
+      "thaat": "Bhairavi",
+      "swaras": [0, 3, 5, 8, 10],
+      "aroha": [0, 3, 5, 8, 10, 0],
+      "avaroha": [0, 10, 8, 5, 3, 0],
+      "vadi": 5,
+      "samvadi": 0,
+      "nyas": [5, 0, 3],
+      "pakad": ["m g m d n d m", "g m g S"],
+      "varjyaRules": [
+        {
+          "swara": 2,
+          "category": "dissonant",
+          "note": "Re is wholly absent from Malkauns."
+        },
+        {
+          "swara": 7,
+          "category": "dissonant",
+          "note": "Pa is wholly absent from Malkauns; its omission is the raga's signature."
+        },
+        {
+          "swara": 1,
+          "category": "dissonant",
+          "note": "Komal Re does not belong to Malkauns."
+        },
+        {
+          "swara": 4,
+          "category": "dissonant",
+          "note": "Shuddha Ga does not belong to Malkauns."
+        },
+        {
+          "swara": 6,
+          "category": "dissonant",
+          "note": "Tivra Ma does not belong to Malkauns."
+        },
+        {
+          "swara": 9,
+          "category": "dissonant",
+          "note": "Shuddha Dha does not belong to Malkauns."
+        },
+        {
+          "swara": 11,
+          "category": "dissonant",
+          "note": "Shuddha Ni does not belong to Malkauns."
+        }
+      ],
+      "samay": "midnight",
+      "rasa": "veera"
+    },
+    {
+      "id": "bhairavi",
+      "name": "Bhairavi",
+      "thaat": "Bhairavi",
+      "swaras": [0, 1, 3, 5, 7, 8, 10],
+      "aroha": [0, 1, 3, 5, 7, 8, 10, 0],
+      "avaroha": [0, 10, 8, 7, 5, 3, 1, 0],
+      "vadi": 5,
+      "samvadi": 0,
+      "nyas": [5, 0, 7],
+      "pakad": ["S r g m P", "d P m g r S"],
+      "varjyaRules": [
+        {
+          "swara": 2,
+          "category": "optional",
+          "note": "Shuddha Re is a common light-classical liberty in Bhairavi (mishra Bhairavi)."
+        },
+        {
+          "swara": 4,
+          "category": "optional",
+          "note": "Shuddha Ga appears freely in mishra Bhairavi."
+        },
+        {
+          "swara": 9,
+          "category": "optional",
+          "note": "Shuddha Dha is borrowed in light-classical Bhairavi."
+        },
+        {
+          "swara": 11,
+          "category": "optional",
+          "note": "Shuddha Ni is borrowed in light-classical Bhairavi."
+        },
+        {
+          "swara": 6,
+          "category": "dissonant",
+          "note": "Tivra Ma does not belong to Bhairavi."
+        }
+      ],
+      "samay": "morning",
+      "rasa": "karuna"
+    },
+    {
+      "id": "khamaj",
+      "name": "Khamaj",
+      "thaat": "Khamaj",
+      "swaras": [0, 2, 4, 5, 7, 9, 10, 11],
+      "aroha": [0, 4, 5, 7, 9, 10, 0],
+      "avaroha": [0, 11, 9, 7, 5, 4, 2, 0],
+      "vadi": 4,
+      "samvadi": 10,
+      "nyas": [4, 10, 7],
+      "pakad": ["n D P m G", "G m P D n D P"],
+      "varjyaRules": [
+        {
+          "swara": 1,
+          "category": "dissonant",
+          "note": "Komal Re does not belong to Khamaj."
+        },
+        {
+          "swara": 3,
+          "category": "dissonant",
+          "note": "Komal Ga does not belong to Khamaj."
+        },
+        {
+          "swara": 6,
+          "category": "dissonant",
+          "note": "Tivra Ma does not belong to Khamaj."
+        },
+        {
+          "swara": 8,
+          "category": "dissonant",
+          "note": "Komal Dha does not belong to Khamaj."
+        }
+      ],
+      "directionRules": [
+        {
+          "swara": 2,
+          "forbiddenIn": "aroha",
+          "note": "Re is varjya in the ascent of Khamaj: the aroha runs S G m P D n S'."
+        },
+        {
+          "swara": 11,
+          "forbiddenIn": "avaroha",
+          "note": "Shuddha Ni belongs to the ascent; the descent takes komal Ni."
+        },
+        {
+          "swara": 10,
+          "forbiddenIn": "aroha",
+          "note": "Komal Ni belongs to the descent; the ascent takes shuddha Ni."
+        }
+      ],
+      "samay": "night",
+      "rasa": "shringar"
+    },
+    {
+      "id": "bihag",
+      "name": "Bihag",
+      "thaat": "Bilawal",
+      "swaras": [0, 2, 4, 5, 7, 9, 11],
+      "aroha": [0, 4, 5, 7, 11, 0],
+      "avaroha": [0, 11, 9, 7, 5, 4, 2, 0],
+      "vadi": 4,
+      "samvadi": 11,
+      "nyas": [4, 11, 7],
+      "pakad": ["G m P N S'", "P M G m G"],
+      "varjyaRules": [
+        {
+          "swara": 6,
+          "category": "conventional",
+          "allowedContexts": ["P M G m G", "P M G", "M G m G"],
+          "note": "Tivra Ma is a conventional ornament in the descending phrase P M G m G; used elsewhere it is foreign to Bihag."
+        },
+        {
+          "swara": 1,
+          "category": "dissonant",
+          "note": "Komal Re does not belong to Bihag."
+        },
+        {
+          "swara": 3,
+          "category": "dissonant",
+          "note": "Komal Ga does not belong to Bihag."
+        },
+        {
+          "swara": 8,
+          "category": "dissonant",
+          "note": "Komal Dha does not belong to Bihag."
+        },
+        {
+          "swara": 10,
+          "category": "dissonant",
+          "note": "Komal Ni does not belong to Bihag."
+        }
+      ],
+      "directionRules": [
+        {
+          "swara": 2,
+          "forbiddenIn": "aroha",
+          "note": "Re is skipped in the ascent of Bihag (S G m P N S')."
+        },
+        {
+          "swara": 9,
+          "forbiddenIn": "aroha",
+          "note": "Dha is skipped in the ascent of Bihag and appears only in descent."
+        }
+      ],
+      "samay": "night",
+      "rasa": "shringar"
+    },
+    {
+      "id": "darbari",
+      "name": "Darbari Kanada",
+      "thaat": "Asavari",
+      "swaras": [0, 2, 3, 5, 7, 8, 10],
+      "aroha": [0, 2, 3, 5, 7, 8, 10, 0],
+      "avaroha": [0, 10, 8, 7, 5, 7, 3, 5, 2, 0],
+      "vadi": 2,
+      "samvadi": 7,
+      "nyas": [2, 7, 0],
+      "pakad": ["g m R S", ".n S R S .d .n .P"],
+      "andolanOn": [3, 8],
+      "varjyaRules": [
+        {
+          "swara": 4,
+          "category": "dissonant",
+          "note": "Shuddha Ga replaces the deeply andolit komal Ga and collapses Darbari into Bilawal-side territory."
+        },
+        {
+          "swara": 9,
+          "category": "dissonant",
+          "note": "Shuddha Dha does not belong to Darbari; komal Dha carries the andolan."
+        },
+        {
+          "swara": 1,
+          "category": "dissonant",
+          "note": "Komal Re does not belong to Darbari Kanada."
+        },
+        {
+          "swara": 6,
+          "category": "dissonant",
+          "note": "Tivra Ma does not belong to Darbari Kanada."
+        },
+        {
+          "swara": 11,
+          "category": "dissonant",
+          "note": "Shuddha Ni does not belong to Darbari Kanada."
+        }
+      ],
+      "samay": "midnight",
+      "rasa": "karuna"
+    }
+  ]
+}
